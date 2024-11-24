@@ -1,0 +1,137 @@
+body{
+    background-image: url(images/sunset.jpg);
+   
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    background-color: white;
+    
+}
+.menu{
+    display: flex;
+    flex-basis: 80%;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 15px;
+    
+}
+h2{
+   padding-left: 5px;
+    color: rgb(22, 129, 43);
+}
+.menu li{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-size: 20px;
+}
+.menu a{
+    text-decoration: none;
+}
+.button{
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 30%;
+    
+}
+.button button:hover{
+    background-color: rgb(232, 171, 39);
+}
+.button button{
+    border: none;
+    background-color: rgb(19, 120, 19);
+    color: white;
+    font-size: 20px;
+
+}
+.menu li:hover{
+    color:rgb(22, 129, 43);;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-top: 80px;
+}
+.content h2{
+    color:white;
+    font-size: 35px;
+}
+.content p{
+    color: white;
+}
+.btns{
+    display: flex;
+    padding: 5px;
+    gap: 0px 19px;
+    padding-left: 60px;
+    padding-top: 50px;
+   
+}
+.bt-1,.bt-2{
+    border-radius: 2px;
+    border: none;
+    color: white;
+    height: 50px;
+}
+.bt-1{
+   
+    font-size: 19px;
+    background-color: rgb(15, 141, 141);
+}
+.bt-2{
+   
+    font-size: 19px;
+    background-color: rgb(182, 99, 231);
+}
+.icns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px 0px;
+    position: absolute;
+    top: 200px;
+    right: 200px;
+}
+.icns i{
+    border: 1px white solid;
+    padding: 4px;
+   
+}
+.icns button{
+    background-color: transparent;
+    border: none;
+}
+.footer{
+    display: flex;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(19, 198, 153);
+    gap: 0px 17px;
+    position: absolute;
+    bottom: 0px;
+    width: 1300px;
+}
+.category select,.location select,.btn button{
+    height: 30px;
+  
+}
+.inpt input{
+    height: 25px;
+    font-weight: bold;
+    color: black;
+}
+.btn button{
+    width: 85px;
+    background-color: rgb(22, 22, 122);
+    color: white;
+    font-size: 14px;
+    border-radius: 1px;
+}
+.category select,.location select{
+    width: 180px;
+    border-radius: 2px;
+}
